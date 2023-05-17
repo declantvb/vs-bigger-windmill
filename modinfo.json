@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "biggerwindmill",
+  "name": "Bigger Windmill",
+  "authors": ["KingPin"],
+  "description": "Adds a bigger variant of the windmill.",
+  "version": "0.1.0",
+  "dependencies": {
+    "game": "1.18.0"
+  }
+}

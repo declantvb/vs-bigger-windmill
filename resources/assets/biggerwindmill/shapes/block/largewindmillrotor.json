@@ -1,0 +1,109 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "hori",
+			"from": [ 0.01, 6.0, 4.01 ],
+			"to": [ 12.0, 10.0, 6.01 ],
+			"rotationOrigin": [ 0.0, -1.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 4.0, 2.0, 16.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#wood", "uv": [ 5.0, 6.5, 7.0, 10.5 ] },
+				"west": { "texture": "#wood", "uv": [ 5.0, 6.5, 7.0, 10.5 ] },
+				"up": { "texture": "#wood", "uv": [ 4.0, 5.0, 16.0, 6.5 ], "autoUv": false },
+				"down": { "texture": "#wood", "uv": [ 0.0, 5.0, 12.0, 6.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "verti",
+			"from": [ 0.0, 4.0, 6.0 ],
+			"to": [ 12.01, 12.0, 10.0 ],
+			"rotationOrigin": [ 0.0, -1.0, -1.0 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 4.0, 1.0, 16.0, 9.0 ] },
+				"east": { "texture": "#wood", "uv": [ 6.5, 5.0, 10.5, 13.0 ] },
+				"south": { "texture": "#wood", "uv": [ 0.0, 2.0, 12.0, 10.0 ] },
+				"west": { "texture": "#wood", "uv": [ 6.5, 5.0, 10.5, 13.0 ] },
+				"up": { "texture": "#wood", "uv": [ 0.0, 6.0, 12.0, 10.0 ] },
+				"down": { "texture": "#wood", "uv": [ 0.0, 0.0, 12.0, 4.0 ] }
+			}
+		},
+		{
+			"name": "blade",
+			"from": [ 6.5, 6.5, 0.0 ],
+			"to": [ 9.5, 9.5, 5.0 ],
+			"rotationOrigin": [ 8.0, 8.0, 0.0 ],
+			"rotationZ": 10.0,
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 5.0, 0.0, 8.0, 3.0 ] },
+				"east": { "texture": "#wood", "uv": [ 0.0, 0.0, 5.0, 3.0 ] },
+				"west": { "texture": "#wood", "uv": [ 0.0, 4.0, 5.0, 7.0 ] },
+				"up": { "texture": "#wood", "uv": [ 0.0, 2.0, 5.0, 5.0 ], "rotation": 90 },
+				"down": { "texture": "#wood", "uv": [ 0.0, 6.0, 5.0, 9.0 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "blade2",
+			"from": [ 6.5, 0.0, 6.5 ],
+			"to": [ 9.5, 5.0, 9.5 ],
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationY": 10.0,
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 3.0, 8.0, 8.0, 11.0 ], "rotation": 90 },
+				"east": { "texture": "#wood", "uv": [ 3.0, 10.0, 8.0, 13.0 ], "rotation": 90 },
+				"south": { "texture": "#wood", "uv": [ 3.0, 12.0, 8.0, 15.0 ], "rotation": 90 },
+				"west": { "texture": "#wood", "uv": [ 3.0, 13.0, 8.0, 16.0 ], "rotation": 90 },
+				"down": { "texture": "#wood", "uv": [ 8.0, 10.0, 11.0, 13.0 ] }
+			}
+		},
+		{
+			"name": "hori-r",
+			"from": [ 0.01, 6.0, 9.99 ],
+			"to": [ 12.0, 10.0, 11.99 ],
+			"rotationOrigin": [ 0.0, 0.0, 5.0 ],
+			"faces": {
+				"east": { "texture": "#wood", "uv": [ 5.0, 6.5, 7.0, 10.5 ] },
+				"south": { "texture": "#wood", "uv": [ 0.0, 2.0, 12.0, 5.0 ], "autoUv": false },
+				"west": { "texture": "#wood", "uv": [ 5.0, 6.5, 7.0, 10.5 ] },
+				"up": { "texture": "#wood", "uv": [ 4.0, 10.0, 16.0, 11.5 ], "autoUv": false },
+				"down": { "texture": "#wood", "uv": [ 0.0, 10.0, 12.0, 11.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "blade3",
+			"from": [ 6.5, 6.5, 11.0 ],
+			"to": [ 9.5, 9.5, 16.0 ],
+			"rotationOrigin": [ 8.0, 8.0, 11.0 ],
+			"rotationZ": -10.0,
+			"faces": {
+				"east": { "texture": "#wood", "uv": [ 11.0, 0.0, 16.0, 3.0 ] },
+				"south": { "texture": "#wood", "uv": [ 9.0, 0.0, 12.0, 3.0 ] },
+				"west": { "texture": "#wood", "uv": [ 11.0, 4.0, 16.0, 7.0 ] },
+				"up": { "texture": "#wood", "uv": [ 11.0, 2.0, 16.0, 5.0 ], "rotation": 90 },
+				"down": { "texture": "#wood", "uv": [ 11.0, 6.0, 16.0, 9.0 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "blade4",
+			"from": [ 6.5, 11.0, 6.5 ],
+			"to": [ 9.5, 16.0, 9.5 ],
+			"rotationOrigin": [ 8.0, 19.0, 8.0 ],
+			"rotationY": -10.0,
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 8.0, 8.0, 13.0, 11.0 ], "rotation": 90 },
+				"east": { "texture": "#wood", "uv": [ 8.0, 10.0, 13.0, 13.0 ], "rotation": 90 },
+				"south": { "texture": "#wood", "uv": [ 8.0, 12.0, 13.0, 15.0 ], "rotation": 90 },
+				"west": { "texture": "#wood", "uv": [ 8.0, 13.0, 13.0, 16.0 ], "rotation": 90 },
+				"up": { "texture": "#wood", "uv": [ 13.0, 12.0, 16.0, 15.0 ] }
+			}
+		}
+	]}

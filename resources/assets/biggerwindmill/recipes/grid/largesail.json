@@ -1,0 +1,10 @@
+{
+  ingredientPattern: "__P,_PL,PL_",
+  ingredients: {
+    "S": { type: "item", code: "plank-*", name: "wood", quantity: 2 },
+    "L": { type: "block", code: "linen-*", quantity: 4 }
+  },
+  width: 3,
+  height: 3,
+  output: { type: "item", code: "largesail", quantity: 4 }
+}
