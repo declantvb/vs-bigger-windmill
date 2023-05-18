@@ -22,7 +22,9 @@
 	blockmaterial: "Wood",
 	textures: {
 		wood: { base: "planksextended" },
-		cloth: { base: "linenextended" }
+		cloth: { base: "linenextended" },
+		metal: { base: "game:block/metal/plate/iron" },
+		plated: { base: "planksreinforced" }
 	},
 	sidesolid: {
 		all: false

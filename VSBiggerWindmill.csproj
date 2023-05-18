@@ -24,6 +24,8 @@
 			<Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
+		<None Include="modinfo.json" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="modicon.png" CopyToOutputDirectory="PreserveNewest" />
 	</ItemGroup>
 	
 	<Target Name="Package" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'Release'">

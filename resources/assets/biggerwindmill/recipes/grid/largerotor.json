@@ -1,11 +1,12 @@
 {
-  ingredientPattern: "_H_,_C_,RSF",
+  ingredientPattern: "H__,CS_,RPF",
   ingredients: {
-    "H": { type: "item", code: "hammer-*", isTool: true, toolDurabilityCost: 80 },
-    "C": { type: "item", code: "chisel-*", isTool: true, toolDurabilityCost: 50 },
-    "R": { type: "item", code: "resin", quantity: 2 },
-    "S": { type: "block", code: "log-placed-*-ud", name: "wood", quantity: 4 },
-    "F": { type: "item", code: "fat", quantity: 2 }
+    "H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 80 },
+    "C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 50 },
+    "S": { type: "block", code: "game:log-placed-*-ud", name: "wood", quantity: 2 },
+    "P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"] },
+    "R": { type: "item", code: "game:resin", quantity: 2 },
+    "F": { type: "item", code: "game:fat", quantity: 2 }
   },
   width: 3,
   height: 3,

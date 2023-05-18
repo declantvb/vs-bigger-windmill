@@ -44,6 +44,7 @@ namespace biggerwindmill.src
                         if (block is BlockLargeWindmillRotor) return false;
 
                         Block toPlaceBlock = world.GetBlock(new AssetLocation(FirstCodePart() + "-" + face.Opposite.Code));
+                        if (toPlaceBlock == null) continue;
                         world.BlockAccessor.SetBlock(toPlaceBlock.BlockId, blockSel.Position);
 
                         block.DidConnectAt(world, pos, face.Opposite);

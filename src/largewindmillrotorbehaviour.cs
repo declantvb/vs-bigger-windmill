@@ -177,7 +177,7 @@ namespace biggerwindmill.src
             base.GetBlockInfo(forPlayer, sb);
 
             sb.AppendLine(string.Format(Lang.Get("Wind speed: {0}%", (int)(100*windSpeed))));
-            sb.AppendLine(Lang.Get("Sails power output: {0} kN", (int)(sailLength / 5f * 250f)));
+            sb.AppendLine(Lang.Get("Sails power output: {0} kN", (int)(sailLength / 5f * 100f * BiggerWindmills.config.torqueMultiplier)));
         }
     }
 }
