@@ -43,8 +43,7 @@ namespace biggerwindmill.src
                         //Prevent rotor back-to-back placement
                         if (block is BlockLargeWindmillRotor) return false;
 
-                        Block toPlaceBlock = world.GetBlock(new AssetLocation(FirstCodePart() + "-" + face.Opposite.Code));
-                        if (toPlaceBlock == null) continue;
+                        Block toPlaceBlock = world.GetBlock(new AssetLocation("biggerwindmill:" + FirstCodePart() + "-" + face.Opposite.Code));
                         world.BlockAccessor.SetBlock(toPlaceBlock.BlockId, blockSel.Position);
 
                         block.DidConnectAt(world, pos, face.Opposite);

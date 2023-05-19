@@ -8,7 +8,10 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"plated": "/Users/Declan/Documents/GitHub/vs-bigger-windmill/resources/assets/biggerwindmill/textures/planksreinforced"
+		"wood": "planksextended",
+		"cloth": "linenextended",
+		"metal": "game:block/metal/plate/iron",
+		"plated": "planksreinforced"
 	},
 	"elements": [
 		{
