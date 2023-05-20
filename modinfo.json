@@ -4,7 +4,7 @@
   "name": "Bigger Windmill",
   "authors": ["KingPin"],
   "description": "Adds a bigger variant of the windmill.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "dependencies": {
     "game": "1.18.0",
     "survival": "1.18.0"
