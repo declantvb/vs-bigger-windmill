@@ -1,11 +1,24 @@
-{
-  ingredientPattern: "_NP,NPL,PL_",
-  ingredients: {
-    "N": { type: "item", code: "game:metalnailsandstrips-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"] },
-    "P": { type: "item", code: "game:plank-*", name: "wood", quantity: 1 },
-    "L": { type: "block", code: "game:linen-*", quantity: 4 }
+[
+  {
+    ingredientPattern: "__P,_NL,PL_",
+    ingredients: {
+      "N": { type: "item", code: "game:metalnailsandstrips-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 2 },
+      "P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 },
+      "L": { type: "block", code: "game:linen-*", quantity: 4 }
+    },
+    width: 3,
+    height: 3,
+    output: { type: "item", code: "largesail", quantity: 4 }
   },
-  width: 3,
-  height: 3,
-  output: { type: "item", code: "largesail", quantity: 4 }
-}
+  {
+    ingredientPattern: "__P,_NS,PS_",
+    ingredients: {
+      "N": { type: "item", code: "game:metalnailsandstrips-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"], quantity: 2 },
+      "P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 },
+      "S": { type: "item", code: "game:sail", quantity: 4 }
+    },
+    width: 3,
+    height: 3,
+    output: { type: "item", code: "largesail", quantity: 4 }
+  }
+]
