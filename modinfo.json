@@ -2,7 +2,7 @@
   "type": "code",
   "modid": "biggerwindmill",
   "name": "Bigger Windmill",
-  "authors": ["KingPin"],
+  "authors": ["Malerion"],
   "description": "Adds a bigger variant of the windmill.",
   "version": "0.2.0",
   "dependencies": {

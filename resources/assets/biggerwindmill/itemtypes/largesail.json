@@ -2,6 +2,13 @@
 	code: "largesail",
 	shape: { base: "item/largesail" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "mechanics": ["*"] },
+	attributes: {
+		handbook: {
+			extraSections: [
+				{ title: " ", text: "biggerwindmill:handbooktext-largesail" }
+			]
+		}
+	},
 	maxstacksize: 4,
 	materialDensity: 510,
 	guiTransform: {

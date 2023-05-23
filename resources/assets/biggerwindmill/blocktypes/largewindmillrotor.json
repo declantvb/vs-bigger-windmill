@@ -6,7 +6,10 @@
 	behaviors: [{name: "HorizontalOrientable"}],
 	attributes: {
 		handbook: {
-			groupBy: ["largewindmillrotor-*"]
+			groupBy: ["largewindmillrotor-*"],
+			extraSections: [
+				{ title: " ", text: "biggerwindmill:handbooktext-largewindmillrotor" }
+			]
 		}
 	},
 	variantgroups: [
